@@ -6,6 +6,7 @@ export const Navbar = () => {
 
   const { theme } = useTheme();
 
+  
   return (
     <div style={{
         display: 'flex',
@@ -31,6 +32,8 @@ export const Navbar = () => {
           </Link>
 
         <Spacer css={{ flex: 1 }}/>
+
+       
 
           <Link href="/favorites" as={NextLink}>
             <Text color='#ffcb05' style={{ fontFamily: "PokemonSolid", textShadow: '0 0 5px #3c5aa6, 0 0 10px #3c5aa6' }}>Favoritos</Text>
