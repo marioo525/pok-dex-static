@@ -18,8 +18,8 @@ export const Layout: FC<PropsWithChildren<Props>> = ({ children,title }) => {
             <meta name="description" content={`Información sobre el pokémon ${ title }`}/>
             <meta name="keywords" content={`${ title }, pokémon, pokedex`}/>
             
-            <meta property="og:title" content={`Pokédex del pokémon ${title}`} />
-            <meta property="og:description" content={`Esta es la pokédex sobre ${title}`} />
+            <meta property="og:title" content={`Pokédex - ${title}`} />
+            <meta property="og:description" content={`Esta es la pokédex - ${title}`} />
             <meta property="og:image" content={`${ origin }/img/banner2.png`} />
         </Head>
 
