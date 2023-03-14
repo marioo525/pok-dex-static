@@ -15,6 +15,7 @@ export const Navbar = () => {
         justifyContent: 'start',
         padding: '0px 20px',
         backgroundColor: theme?.colors.gray100.value,
+        borderBottom: '1px solid #999999'
     }}>
         {/* <Text color='white' h2>P</Text>
         <Text color='white' h3>okémon</Text> */}
