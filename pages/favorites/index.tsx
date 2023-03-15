@@ -24,9 +24,6 @@ const FavoritesPage = () => {
             )
         }
 
-        
-    
-    
     </Layout>
   )
 }
