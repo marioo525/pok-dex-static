@@ -2,3 +2,7 @@
   font-family: "PokemonSolid";
   src: url("../public/fonts/PokemonSolid.ttf") format("truetype");
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
