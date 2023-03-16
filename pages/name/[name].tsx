@@ -69,12 +69,12 @@ const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
             <Card.Header
               css={{ display: "flex", justifyContent: "space-between" }}
             >
-              <Text className="text-2xl" h1 transform="capitalize">
+              <Text className="text-xl font-bold" h1 transform="capitalize">
                 {pokemon.name}
               </Text>
 
               <Button 
-                className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."
+                className= "min-w-min py-3 px-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."
                 color="gradient"
                 ghost={!isInFavorites}
                 onPress={onToggleFavorite}
