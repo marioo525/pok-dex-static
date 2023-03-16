@@ -74,7 +74,7 @@ const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
               </Text>
 
               <Button 
-                className= "min-w-min py-3 px-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."
+                className= "min-w-[2] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."
                 color="gradient"
                 ghost={!isInFavorites}
                 onPress={onToggleFavorite}
